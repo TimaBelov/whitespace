@@ -1,0 +1,62 @@
+body,button{
+    font-family: 'Inter',sans-serif;
+}
+
+button{
+    border: none;
+    letter-spacing: -0.02em;
+}
+
+header{
+    background-color: #043873;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 29px 0 29px 0;
+}
+
+nav{
+    margin-left: 300px;
+    font-family: 'DM Sans',sans-serif;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    margin-right: 32px;
+}
+
+nav a:last-of-type{
+    margin-right: 60px;
+}
+
+nav a:last-child{
+    background-color: red;
+}
+
+.nav__button__login{
+    color: #043873;
+    background-color: #FFE492;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 18px 40px;
+    border-radius: 8px;
+
+    cursor: pointer;
+    margin-right: 24px;
+}
+
+.nav__button__try{
+    color: white;
+    background-color: #4F9CF9;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
