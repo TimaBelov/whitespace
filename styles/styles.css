@@ -122,6 +122,10 @@ section p{
     padding: 20px 20px;
 }
 
+.about_possibilities__item:first-child{
+    margin-bottom: 100px;
+}
+
 .about_possibilities__item{
     display: flex;
     justify-content: center;
@@ -146,4 +150,18 @@ section p{
 .about_possibilities__image{
     height: 547px;
     width: 748px;
+}
+
+.about_possibilities__item:last-child{
+    background-image: none;
+}
+
+.about_possibilities__item:last-child .about_possibilities__image{
+    width: 710px;
+    height: 661px;
+    margin-right: 100px;
+}
+
+.about_possibilities__item:last-child .about_possibilities__item__information{
+    margin: 0;
 }
