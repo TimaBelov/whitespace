@@ -88,13 +88,13 @@ section{
 
 section:nth-child(odd){
     background-color: #043873;
+    color: white;
 }
 
 .try_for_free{
     background-image: url(../resources/try_for_free_decoration.png);
     background-repeat: no-repeat;
     background-position: 50% 70%;
-    color: white;
 
     display: flex;
     justify-content: center;
@@ -148,8 +148,8 @@ section p{
 }
 
 .about_possibilities__image{
-    height: 547px;
     width: 748px;
+    height: 547px;
 }
 
 .about_possibilities__item:last-child{
@@ -164,4 +164,26 @@ section p{
 
 .about_possibilities__item:last-child .about_possibilities__item__information{
     margin: 0;
+}
+
+.use_as_extension{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.use_as_extension__information{
+    width: 697px;
+    margin-right: 98px;
+}
+
+.use_as_extension__information h2{
+    background-image: url(../resources/about_possibilities_underline_text.png);
+    background-repeat: no-repeat;
+    background-position-y:100%;
+}
+
+.use_as_extension__image{
+    width: 686px;
+    height: 479px;
 }
