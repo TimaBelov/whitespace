@@ -160,7 +160,7 @@ section p{
 }
 
 .about_possibilities__item__information h2{
-    background-image: url(../resources/about_possibilities_underline_text.png);
+    background-image: url(../resources/underline_text_yellow.png);
     background-repeat: no-repeat;
     background-position: 0% 85%;
 }
@@ -201,7 +201,7 @@ section p{
 }
 
 .use_as_extension__information h2{
-    background-image: url(../resources/about_possibilities_underline_text.png);
+    background-image: url(../resources/underline_text_yellow.png);
     background-repeat: no-repeat;
     background-position: 70% 65%;
     background-size: 350px 40px;
@@ -225,7 +225,7 @@ section p{
 }
 
 .customise_and_price__customise__information h2{
-    background-image: url(../resources/about_possibilities_underline_text.png);
+    background-image: url(../resources/underline_text_yellow.png);
     background-repeat: no-repeat;
     background-position: -20% 90%;
 }
@@ -236,7 +236,7 @@ section p{
 
 .customise_and_price__price h2{
     padding-bottom: 24px;
-    background-image: url(../resources/about_possibilities_underline_text.png);
+    background-image: url(../resources/underline_text_yellow.png);
     background-repeat: no-repeat;
     background-position: 60% 55%;
     background-size: 330px 50px;
@@ -349,3 +349,19 @@ section p{
     border: none;
 }
 
+.always_work{
+    background-image: url(../resources/always_work_bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+}
+
+.always_work__description{
+    width: 1064px;
+    margin: 0 auto;
+}
+
+.always_work__description h2{
+    background-image: url(../resources/underline_text_blue.png);
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+}
