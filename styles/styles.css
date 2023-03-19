@@ -381,7 +381,7 @@ section p{
     text-align: center;
     background-image: url(../resources/underline_text_yellow.png);
     background-repeat: no-repeat;
-    background-position: 57% 60%;
+    background-position: 55% 60%;
     background-size: 328px 62px;
     margin-bottom: 76px;
 }
@@ -390,4 +390,22 @@ section p{
     margin: 0 220px;
     display: flex;
     justify-content: space-between;
+}
+
+.favorite_apps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../resources/favorite_apps_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.favorite_apps__image{
+    margin-right: 100px;
+}
+
+.favorite_apps__information{
+    width: 798px;
 }
