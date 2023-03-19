@@ -365,3 +365,14 @@ section p{
     background-repeat: no-repeat;
     background-position: 100% 80%;
 }
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 280px;
+}
+
+.data__information{
+    width: 800px;
+}
