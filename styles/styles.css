@@ -376,3 +376,18 @@ section p{
 .data__information{
     width: 800px;
 }
+
+.sponsors__heading{
+    text-align: center;
+    background-image: url(../resources/underline_text_yellow.png);
+    background-repeat: no-repeat;
+    background-position: 57% 60%;
+    background-size: 328px 62px;
+    margin-bottom: 76px;
+}
+
+.sponsors__cont{
+    margin: 0 220px;
+    display: flex;
+    justify-content: space-between;
+}
