@@ -489,3 +489,29 @@ section p{
     height: 95px;
     margin-right: 42px;
 }
+
+.contacts-inner{
+    width: 608px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts-inner p{
+    font-size: 24px;
+    line-height: 32px;
+
+    width: 550px;
+}
+
+.contacts-inner__os_system__img{
+    margin-right: 40px;
+}
+
+.contacts-inner__os_system__img:last-child{
+    margin-right: 0;
+}
+
+.footer{
+    background-color: #043873;
+    color: white;
+}
