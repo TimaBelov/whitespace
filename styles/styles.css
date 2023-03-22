@@ -264,7 +264,7 @@ section p{
     border-radius: 10px;
     width: 472px;
     text-align: left;
-    padding: 40px 0 40px 44px;
+    padding: 80px 44px;
 
     margin-right: 32px;
 }
@@ -275,7 +275,6 @@ section p{
 
 .customise_and_price__price__wrapper__item:nth-child(2)
 {
-    padding: 80px 0 80px 44px;
     background-color: #043873;
     border: none;
     color: white;
@@ -589,4 +588,11 @@ section:last-child{
     border-radius: 8px;
 
     width: 186px;
+}
+
+@media (max-width: 1499px) {
+    .customise_and_price__price__wrapper__item{
+        width: 424px;
+        padding: 40px 44px;
+    }
 }
